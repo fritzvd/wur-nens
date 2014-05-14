@@ -165,10 +165,10 @@
       </section>
     </div>
 </div>
-    <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
-    <script src="bower_components/reveal.js/js/reveal.min.js"></script>
-    <script src="bower_components/d3/d3.min.js"></script>
-    <script src="bower_components/leaflet-dist/leaflet.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/lib/js/head.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.6/d3.min.js"></script>
+    <!-- <script src="bower_components/leaflet-dist/leaflet.js"></script> -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <!-- BEGIN TimelineJS -->
     <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
@@ -272,11 +272,11 @@
           .attr("fill", function(d, i) { return color(i); })
           .attr("d", arc);
 
-      var map = L.map('map').setView([51.505, -4.09], 13);
-      // add an OpenStreetMap tile layer
-      L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map);
+      // var map = L.map('map').setView([51.505, -4.09], 13);
+      // // add an OpenStreetMap tile layer
+      // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      // }).addTo(map);
 
 
       // Full list of configuration options available here:
