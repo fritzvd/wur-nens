@@ -102,7 +102,9 @@
         <section>
           <img src="assets/img/regenviewer.gif" />
         </section>
+      </section>
 
+      <section>
         <section>
           <h3>3Di</h3>
           <img src="assets/img/3di.gif" />
@@ -133,7 +135,9 @@
         <section>
           <h3>Can anyone think of some ethical dilemma's</h3>
         </section>
+      </section>
 
+      <section>
         <section>
           <h3>Classic GIS</h3>
           <ul>
@@ -153,14 +157,13 @@
           <h5>Therefore ...</h5>
           <div id="map"></div>
         </section>
-
+        <section>
+            <h2>Future of Geo IT</h2>
+            <pre class="fragment"><code>More complex for us Geo Experts</code></pre>
+            <pre class="fragment"><code>Easier for a new potential end user</code></pre>
+        </section>
       </section>
 
-      <section>
-        <h2>Future of Geo IT</h2>
-        <pre class="fragment"><code>More complex for us Geo Experts</code></pre>
-        <pre class="fragment"><code>Easier for a new potential end user</code></pre>
-    </section>
 
     <section>
       <h3>Final remarks</h3>
@@ -171,8 +174,8 @@
 
       <section>
         <h3>Questions?</h3>
-        <p><a href="mailto:fritz.vandeventer@nelen-schuurmans.nl">fritz.vandeventer@nelen-schuurmans.nl</a></p>
         <p>
+          <a href="mailto:fritz.vandeventer@nelen-schuurmans.nl"><i class="fa fa-envelope fa-4x"></i></a>
           <a href="http://github.com/fritzvd"><i class="fa fa-github fa-4x"></i></a>
           <a href="http://twitter.com/fritzvd"><i class="fa fa-twitter fa-4x"></i></a>
           <a href="http://nl.linkedin.com/in/fritzvd"><i class="fa fa-linkedin fa-4x"></i></a>
@@ -324,8 +327,8 @@
       Reveal.addEventListener( 'slidechanged', function( event ) {
           // event.previousSlide, event.currentSlide, event.indexh, event.indexv
           if (event.indexh == 5){ // assuming your 5th slide is the one with the map
-              map.invalidateSize(false); // assuming that map holds the the reference to your leaflet instance
-              console.log('mapping')
+              // map.invalidateSize(false); // assuming that map holds the the reference to your leaflet instance
+              // console.log('mapping')
           }
           if (event.indexh == 2){ 
               timelineJS();
