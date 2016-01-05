@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>WUR NENS 2015</title>
     <meta charset="utf-8">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Bitter:700);
       @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Raleway'; }
+      body {
+        font-family: 'Raleway';
+      }
       h1, h2, h3 {
         font-family: 'Bitter';
         font-weight: normal;
@@ -16,7 +19,8 @@
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
       .inverse {
-        background: #272822;
+        background-color: #272822;
+        background-size: cover;
         color: #d6d6d6;
         text-shadow: 0 0 20px #333;
       }
@@ -26,10 +30,12 @@
 
       .video-background {
         background-size: 100% 100%;
+        image-rendering: optimizeSpeed;             /* Legal fallback */
         image-rendering: -moz-crisp-edges;         /* Firefox */
         image-rendering:   -o-crisp-edges;         /* Opera */
         image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
         image-rendering: crisp-edges;
+        image-rendering:pixelated;                 /* CSS4 Proposed  */
         -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
       }
 
@@ -45,121 +51,132 @@
     <textarea id="source">
 
 
-class: center, middle
-background-image:  url(bialetti.jpg)
+class: video-background, center, middle, inverse
+background-image: url(assets/lmg-small.gif)
+
+# Fritz Van Deventer
+
+### i make things. mostly music [@cheesesofmexico](http://cheesesofmexico.com) and computer stuff [@fritzvd](https://github.com/fritzvd/) e.g. with javascript.
+
+---
+class: inverse
+background-image: url(assets/atlas.jpg)
+
+# WUR alummnus
+ 
+### BIL and MGI 
+
+---
+class: inverse, center, middle
+background-image: url(assets/waterinsight.jpg)
+
+# Earth Observation
+ 
+### Water Insight
+### Neo
+
+---
+class: inverse, center, middle
+background-image: url(assets/inhfwater.png)
+
+# Nelen &amp; Schuurmans
+ 
+### Hydrology and IT
+
+.footnote[INHF]
+
+---
+class: inverse, middle
+background-image: url(assets/mapbox.png)
+# GIS at a water consultancy
+* Everything we do is spatial
+* Die-hard GIS ❰ ❱ Cloud solutions
+* NumPy / GDAL. PostGIS. Python, Javascript. QGis
+
+---
+class: inverse
+background-image: url(assets/clean-code.jpg)
+
+## Why Geoscripting?
+* Reproducable results.
+* Quick and dirty analysis.
+* Automating *anything* [(all da tings)](https://twitter.com/sighmebored)
+* RSI prevention.
+* Fun &amp; Profit.
+
+---
+class: inverse, centre, middle
+background-image: url(assets/delorean.jpg)
+
+# Lizard - [demo](https://demo.lizard.net)
+
+### National Rain Radar
+### Raster Server
+### Asset Database
+---
+
+background-image: url(assets/cube.png)
+
+## Navigate through space and time
+.footnote[arcgis]
 
 ---
 
-class: center, middle, inverse
-background-image: url(marzocco.jpg)
+class: inverse, center, middle
+background-image: url(assets/vumc.jpg)
 
-.footnote[hubbub coffee]
+# Urban Water
+.footnote[Financieel Dagblad]
 ---
 
-class: center, middle
-background-image: url(tea.jpg)
+background-image: url(assets/3di.gif)
 
----
-
-class: center, middle, inverse
-
-background-image: url(framework.jpg)
-# To Framework or not to Framework
-
-.footnote[Timber Frame by Paul VanderWerf]
----
-
-# That's the question
-
----
-
-class: video-background
-background-image: url(lmg-small.gif)
-# Fritz (hates frameworks)
-
-* Works at Nelen &amp; Schuurmans and works on numerous other tidbits
-* Node/Python/Haxe and proudly (read: sadly) AngularJS
-* Frontman of Cheeses of Mexico
-
----
-
-# Tom (loves frameworks)
-
-* Works at Brightin
-* Occasional Ember fanboy
-* Appuccino
-
----
-
-background-image: url(bieber.jpg)
-
----
-class: video-background
-background-image: url(destruct.gif)
+# Making of
 
 ---
 
 class: inverse
-background-image: url(catch-22.jpg)
+background-image: url(assets/archive.jpg)
 
-# The "Catch" with Frameworks
+# Databases
+.footnote[Archive House Library photo: Sara Pooley]
+---
+background-image: url(assets/qgis.png)
 
-* Solves a specific problem
-* Certain belief system (e.g. opinionated vs agnostic)
-
+# 'Regular' GIS
 ---
 
+class: inverse
+background-image: url(assets/datacentre.jpg)
 
-class: center, middle
-
-# A story about testing React
-
+# Servers
+.footnote[New York Times]
 ---
 
-class: center, middle
+class: inverse, center, middle
+background-image: url(assets/breugel-babel.jpg)
 
-# Codified ideas
+# Python, JavaScript
+# Scala, R, Go
 
+.footnote[Pieter Breugel - Babel]
 ---
+class: inverse, center, middle
+background-image: url(assets/monet.jpg)
+# Final Remarks
+### Learn some Python / JavaScript
+### Get acquainted with databases
 
-class: center, middle
-
-# Hopefully good ideas
-
+.footnote[Claude Monet - The Summer, Poppy field]
 ---
-
-# Reactive UIs for the web
-
-* Ember and Angular incorporated this
-* React moved it into its own library
-* Moving to become part of JavaScript itself
-
----
-
-# Frameworks can be ahead
-
-* Web components were here long before they were here
-* But they weren't standards
-* Although they tried
-
----
-
-# Frameworks are big
-
-
----
-
-# Moving complexity to the front
-
-![complexity](http://puu.sh/l4yaQ.png)
-
----
-
-# Tools
-
-* Part of best practices are tools
-* Don't bring your own toolbox, borrow it
-
+class: inverse, center, middle
+background-image: url(assets/hopper.jpg)
+# Questions?
+<a href="mailto:fritz.vandeventer@nelen-schuurmans.nl"><i class="fa fa-envelope fa-4x"></i></a>
+          <a href="http://github.com/fritzvd"><i class="fa fa-github fa-4x"></i></a>
+          <a href="http://twitter.com/fritzvd"><i class="fa fa-twitter fa-4x"></i></a>
+          <a href="http://nl.linkedin.com/in/fritzvd"><i class="fa fa-linkedin fa-4x"></i></a>
+.footnote[Edward Hopper - Street Scene]
     </textarea>
     <script src="remark.min.js">
     </script>
